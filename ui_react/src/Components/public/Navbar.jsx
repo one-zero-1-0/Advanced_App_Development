@@ -22,8 +22,9 @@ const Navbar = () => {
         }
     ]
   return (
-    <div className='h-[5vh] w-screen flex flex-row justify-center items-center bg-emerald-400'>
-        <div className='w-[90%] h-full flex flex-row justify-between items-center'>
+    <>
+    <div className="h-[5vh] w-screen flex flex-row justify-center items-center bg-emerald-400">
+        <div className="w-[90%] h-full flex flex-row justify-between items-center">
             <div className='w-1/4 text-2xl font-bold text-blue-950'>
                 I Code
             </div>
@@ -37,6 +38,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
